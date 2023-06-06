@@ -1,2 +1,1 @@
-# NN_kursova
- Bitcoin price prediction
+# Bitcoin price prediction
