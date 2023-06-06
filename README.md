@@ -7,6 +7,19 @@ This code is designed to predict the price of Bitcoin using various machine lear
 
 The dataset is stored in a file named "dataset.csv". It reads the dataset and performs various preprocessing steps.
 
+## Main technologies
+
+| Technology   | Version  |
+|--------------|----------|
+| NumPy        | 1.21.0   |
+| pandas       | 1.3.0    |
+| matplotlib   | 3.4.2    |
+| plotly       | 5.3.1    |
+| scikit-learn | 0.24.2   |
+| Keras        | 2.6.0    |
+| Python       | 3.6.0    |
+
+
 ## Model Training and Evaluation
 
 The code trains and evaluates three different models: Linear Regression, LSTM (Long Short-Term Memory), and Random Forest. The steps involved are as follows:
