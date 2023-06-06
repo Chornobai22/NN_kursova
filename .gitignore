@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Data
+*.csv
+*.xls
+*.xlsx
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.log.*
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled libraries
+*.so
+*.dll
+
+# Virtual environments
+venv/
+env/
+env.bak/
+env/
