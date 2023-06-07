@@ -2,11 +2,20 @@
 <html>
 <head>
     <title>Upload File</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='upload.css') }}">
 </head>
 <body>
+<div class="main-container">
+    <div class="bitcoin">
+        <div>Bitcoin price prediction</div>
+        <img src="{{ url_for('static', filename='bitcoin.png') }}" alt="Bitcoin" class="bitcoin-img">
+    </div>
     <h1>Upload Dataset</h1>
     <form action="/" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".csv">
+        <div class="file-input">
+            <input type="file" id="file" name="file" accept=".csv" onchange="updateFileName()">
+            <label for="file" id="file-label">Choose File</label>
+        </div>
         <label for="model">Choose a model:</label>
         <select name="model" id="model">
             <option value="linear">Linear Regression</option>
@@ -15,5 +24,19 @@
         </select>
         <input type="submit" value="Upload">
     </form>
+</div>
+
+<script>
+    function updateFileName() {
+        var fileInput = document.getElementById('file');
+        var fileLabel = document.getElementById('file-label');
+        if (fileInput.files.length > 0) {
+            fileLabel.textContent = fileInput.files[0].name;
+        } else {
+            fileLabel.textContent = 'Choose File';
+        }
+    }
+</script>
+
 </body>
 </html>

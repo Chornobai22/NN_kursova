@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #9dd9f5;
+    --secondary-color: #f6ba72ff;
+    --accent-blue: #818ed0;
+    --background-color: #fffffff;
+    --text-color: #0000000;
+    --button-active-scale: 0.95;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+#graph {
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+}
