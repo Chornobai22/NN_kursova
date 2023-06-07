@@ -68,9 +68,24 @@ The code trains and evaluates three different models: Linear Regression, LSTM (L
 
 • Visualize the actual vs. predicted values using a line plot.
 
-## Visualizations
+## Installation
 
-The code uses the Plotly library to create line plots for the actual vs. predicted values of each model.
+Clone the repository:
 
-**Note:** the code assumes the necessary dependencies are installed, and the dataset is in the correct format.
+git clone https://github.com/Chornobai22/NN_kursova
 
+Install the required dependencies:
+
+pip install -r requirements.txt
+
+## Usage
+
+Run the application:
+
+python app.py
+
+Access the web application in your browser:
+
+http://localhost:5000
+
+Upload your dataset and wait for the prediction.
