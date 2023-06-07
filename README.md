@@ -18,7 +18,7 @@ The dataset is stored in a file named "dataset.csv". It reads the dataset and pe
 | scikit-learn | 0.24.2   |
 | Keras        | 2.6.0    |
 | Python       | 3.6.0    |
-
+| Flask        | 2.3.2    |
 
 ## Model Training and Evaluation
 
