@@ -37,8 +37,7 @@
     <h1>Graphs</h1>
     <div id="graph"></div>
     <script>
-        var graphData = JSON.parse('{{ graph|safe }}');
-        Plotly.newPlot('graph', graphData.data, graphData.layout);
+        var graphData = JSON.parse('{{ graph|safe }}
     </script>
     <h1>Table</h1>
     <table>
