@@ -72,17 +72,17 @@ The code trains and evaluates three different models: Linear Regression, LSTM (L
 
 Clone the repository:
 
-git clone https://github.com/Chornobai22/NN_kursova
+`git clone https://github.com/Chornobai22/NN_kursova`
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Usage
 
 Run the application:
 
-python app.py
+`python app.py`
 
 Access the web application in your browser:
 
